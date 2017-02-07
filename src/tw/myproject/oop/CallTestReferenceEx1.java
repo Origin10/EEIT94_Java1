@@ -1,6 +1,6 @@
 package tw.myproject.oop;
-
-class Car{
+//因為類別重複
+class Kar{
 	int price = 20000;
 	char size = 'L';
 }
@@ -8,11 +8,11 @@ class Car{
 public class CallTestReferenceEx1 {
 
 	public static void main(String[] args) {
-		Car myCar = new Car();
+		Kar myCar = new Kar();
 		myCar.price = 30000;
 		myCar.size = 'M';
 		
-		Car yourCar = new Car();
+		Kar yourCar = new Kar();
 		yourCar.price = 50000;
 		yourCar.size = 'S';
 		

@@ -4,7 +4,7 @@ package tw.myproject.oop.inheritance;
 class Parent{
 	String name = "John";
 	
-	public Parent(){		
+	public Parent(){	//子類別建構值super進父類別的建構子	
 	}
 	
 	public Parent(String name){
