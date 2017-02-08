@@ -61,6 +61,7 @@ public class CallTestInterfaceEx1 {
 	public static void main(String[] args) {
 		Bird hungryBird = new Bird();
 		//Flyer hungryBird = new Bird(); 找不到eat()
+		//多型的意義在這裡解釋為:繼承父類別的子類別可以統一更改
 		hungryBird.eat();
 	}
 
